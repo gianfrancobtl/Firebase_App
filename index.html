@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <link rel='stylesheet' type='text/css' src='styles.css'>
+        <title>Firebase App</title>
+    </head>
+
+    <body>
+        <h1>Inicia sesión</h1>
+
+        <button id='login'>
+            Inicia con Google
+        </button>
+
+        <div id='root'></div>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC-kFNjAwDx1x1XtgN-cPKQWX4Cqnc69iE",
+    authDomain: "fir-app-9a7a9.firebaseapp.com",
+    databaseURL: "https://fir-app-9a7a9.firebaseio.com",
+    projectId: "fir-app-9a7a9",
+    storageBucket: "fir-app-9a7a9.appspot.com",
+    messagingSenderId: "687107553554",
+    appId: "1:687107553554:web:51316954d4f4cbfa7b1bcb",
+    measurementId: "G-V32XS1L26C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+        <script src='main.js'></script>
+
+    </body>
+</html>
